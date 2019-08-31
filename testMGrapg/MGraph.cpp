@@ -289,7 +289,6 @@ void MGraph::miniSpanTree_Kruskal()
 		sum = sum + c.m_weight;
 	}
 	cout << "Kruskal算法——最低花费：" << sum << endl;
-
 }
 
 void MGraph::shortPath_Dijkstra(int being_node)
